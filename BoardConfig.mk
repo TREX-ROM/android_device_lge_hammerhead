@@ -172,6 +172,9 @@ TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/lge/hammerhead/power/power_ext.c
 USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+# TWRP specific build flags
+TW_THEME := landscape_hdpi
+
 # Recovery
 RECOVERY_FSTAB_VERSION := 2
 BOARD_HAS_NO_SELECT_BUTTON := true
