@@ -186,7 +186,7 @@ TW_MAX_BRIGHTNESS := 255
 TW_NO_SCREEN_TIMEOUT := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 # TWRP specific build flags
-TW_THEME := landscape_xxdpi
+TW_THEME := landscape_hdpi
 
 # Hardware
 BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
