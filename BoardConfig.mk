@@ -111,7 +111,7 @@ BOARD_SEPOLICY_DIRS += \
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := liquiddark_hammerhead_defconfig 
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # LIQUIFY OPTIMIZATIONS V1
