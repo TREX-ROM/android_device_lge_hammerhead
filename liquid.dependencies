@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "gh",
+   "repository": "TREX-ROM/android_kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "revision": "mm6.0"
+ },
+ {
+   "remote": "gh",
+   "repository": "CyanogenMod/android_device_qcom_common",
+   "target_path": "device/qcom/common"
+   "revision": "cm-13.0"
+ }
+]
