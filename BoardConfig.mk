@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2013 The Android Open-Source Project
 #
@@ -28,6 +29,10 @@ BOARD_KERNEL_PAGESIZE := 2048
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.selinux=permissive androidboot.hardware=hammerhead user_debug=31 maxcpus=2 msm_watchdog_v2.enable=1 androidboot.bootdevice=msm_sdcc.1
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
+
+# Define kernel config for inline building
+TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
 # Shader cache config options
@@ -105,15 +110,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
 
 BOARD_SEPOLICY_DIRS += device/lge/hammerhead/sepolicy
-
-# Define kernel config for inline building
-TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
-# LIQUIFY OPTIMIZATIONS V1
-# LIQUIFY := true
 
 # Changelog
 LIQUID_CHANGELOG := true
