@@ -118,6 +118,9 @@ on boot
     chown system system /sys/class/leds/blue/on_off_ms
     chown system system /sys/class/leds/red/rgb_start
     chmod 664 /sys/class/leds/lcd-backlight/brightness
+ 
+    # MDSS PCC RGB colour adjust interface
+    chown system system /sys/devices/virtual/graphics/fb0/rgb
 
 on post-fs-data
     write /sys/kernel/boot_adsp/boot 1
