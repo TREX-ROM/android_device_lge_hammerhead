@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository": "TREX-ROM/android_kernel_lge_hammerhead",
+   "repository": "franciscofranco/hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "revision": "blu_spark"
+   "revision": "marshmallow"
  },
  {
    "remote": "gh",
