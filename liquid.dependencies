@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository": "SlimRoms/kernel_lge_hammerhead",
+   "repository": "TREX-ROM/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "revision": "mm6.0"
+   "revision": "blu_spark"
  },
  {
    "remote": "gh",
