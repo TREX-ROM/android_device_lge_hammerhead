@@ -33,8 +33,6 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := blu_spark_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
 # Shader cache config options
