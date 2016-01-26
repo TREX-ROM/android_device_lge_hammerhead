@@ -138,9 +138,6 @@ BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
     hardware/cyanogen/cmhw
 
-# Hardware
-BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
-
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 # Enable Minikin text layout engine (will be the default soon)
