@@ -23,4 +23,4 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
     BUILD_FINGERPRINT=google/hammerhead/hammerhead:6.0.1/MOB30P/2960889:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 MOB30P 2960889 release-keys" \
+    PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 MOB30P 2960889 release-keys"
