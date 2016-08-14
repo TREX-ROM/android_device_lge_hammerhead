@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "gh",
+   "repository":  "SlimRoms/kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "branch":      "mm6.0"
+ },
+ {
+   "remote": "gh",
+   "repository": "CyanogenMod/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "revision": "cm-13.0"
+}
+]
