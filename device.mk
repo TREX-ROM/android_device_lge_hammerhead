@@ -166,7 +166,8 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     camera.hammerhead \
     mm-jpeg-interface-test \
-    mm-qcamera-app
+    mm-qcamera-app \
+    Snap
 
 PRODUCT_PACKAGES += \
     keystore.msm8974
