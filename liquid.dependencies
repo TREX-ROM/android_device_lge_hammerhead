@@ -1,7 +1,7 @@
 [
  {
    "remote": "gh",
-   "repository":  "flar2/ElementalX-N5",
+   "repository":  "TREX-ROM/ElementalX-N5",
    "target_path": "kernel/lge/hammerhead",
    "branch":      "ElementalX-6.00"
  },
