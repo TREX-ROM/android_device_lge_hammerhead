@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository":  "SlimRoms/kernel_lge_hammerhead",
+   "repository":  "flar2/ElementalX-N5",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "mm6.0"
+   "branch":      "ElementalX-6.00"
  },
  {
    "remote": "gh",
