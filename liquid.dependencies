@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository":  "TREX-ROM/ElementalX-N5",
+   "repository":  "rachanta/kernel_n5_racer",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "ElementalX-6.00"
+   "branch":      "racer-caf-mf"
  },
  {
    "remote": "gh",
