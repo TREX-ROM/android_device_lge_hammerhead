@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository":  "rachanta/kernel_n5_racer",
+   "repository":  "TREX-ROM/kernel_n5_racer",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "racer-caf-mf"
+   "branch":      "mm6.0"
  },
  {
    "remote": "gh",
