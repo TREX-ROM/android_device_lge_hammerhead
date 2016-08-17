@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository":  "TREX-ROM/kernel_n5_racer",
+   "repository": "CyanogenMod/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "mm6.0"
+   "revision": "cm-13.0"
  },
  {
    "remote": "gh",
